@@ -1,0 +1,41 @@
+h1 computer:
+Russo One
+Regular
+ 150px (80px, mobileversion)
+
+
+
+h2 computer:
+Spartan 
+thin+bold
+45px (30px mobile)
+
+
+
+
+h3
+spartan 
+Regular 
+50px
+
+
+
+
+
+p
+Spartan 
+Regular+bold
+20px
+
+
+
+sofie vedel logo
+Spartan 
+thin
+30px
+
+
+Header navbar
+Cabin 
+Regular 
+20px

@@ -1,0 +1,245 @@
+hvad er mine fejl? skriv koden ud i et: body{
+    background-image: url("img/backgroundoliemaleri.png");
+    box-sizing: border-box;
+
+}
+main section{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 100%;
+
+}
+
+
+p{
+    text-decoration: none;
+    font-family: "League Spartan", serif;
+    font-weight: lighter;
+    color:white;
+
+
+}
+
+
+ #buddies{
+
+
+ }
+
+h2{
+    font-size: 45px;
+    margin-bottom: 2vh;
+    margin-top: 10vh;
+}
+
+
+
+
+
+
+/*skelet*/
+
+footer{
+
+    bottom:0;
+    height: 10vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+
+
+}
+footer p{
+    text-decoration: none;
+    font-family: "League Spartan", serif;
+    font-weight: lighter;
+    color:white;
+
+
+}
+
+
+
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    color:white;
+    margin-top: 4vh;
+    padding-left: 5px;
+
+
+}
+
+footer p{
+    text-decoration: none;
+    font-family: "League Spartan", serif;
+    font-weight: lighter;
+    margin-left: 1%;
+    margin-top: 0.5vh;
+
+
+
+}
+
+
+
+/*media*/
+@media (max-width: 1000px) {h2{
+    font-size: medium;
+    font-size: 10px;
+
+}}
+
+@media (max-width: 1000px) {p{
+    font-size: small;
+
+}}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--min h1, h2-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Russo+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <title>portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="skelet.css">
+    <link rel="stylesheet" href="ommig.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav>
+            <a href="#">Hjem</a>
+            <a href="kompetencer.html ">Kompetancer</a>
+            <a href="projekter.html ">Projekter</a>
+            <a href="ommig.html">Om mig</a>
+            <a href="kontaktmig.html">Kontakt mig</a>
+        </nav>
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+    </div>
+</header>
+
+<nav class="mobile-nav">
+    <a href="# ">Hjem</a>
+    <a href="kompetencer.html">Kompetencer</a>
+    <a href="ommig.html">Projekter</a>
+    <a href="# ">Om mig</a>
+    <a href="# ">Kontakt mig</a>
+</nav>
+
+<main>
+    <h2>Om mig</h2>
+    <section>
+
+        <p>Jeg hedder Sofie Vedel og jeg studerer multimediedesign.</p>
+        <p>Jeg er sulten efter at løse opgaver, som kan være med til at udvikle og udvide mit kreative univers indenfor multimediedesign </p>
+
+    </section>
+
+
+    <section>
+        <div class="styling"><img src="img/buddies.png" width="10%">
+
+        <h2>Jeg er en teamplayer</h2>
+        <p>Jeg stræber efter at give plads til hinanden så også dem der er mere stille får sine ideer igennem,
+            at lærer fra andres styrker ved at obseverer og lytte efter hvordan de går til en bestemt opgave.
+            At være en teamplayer er også at lade en afstemning afgører hvorvidt en bestemt ting går igennem
+            ,så det ikke bare er den der råber højst som får sine ting igennem.
+            Og som en god teamplayer oplever jeg at det er vigtigt at kunne grine sammen hvis tingene går lidt skævt fordi det er det som skaber en god stemning og gruppedynamik.
+            At være åbensindet overfor andres ideer eller måde at arbejde på er også noget jeg vægter højt for at være en god teamplayer</p>
+        <p>Jeg synes gruppearbejde er enormt vigtigt. Jeg oplever at forskellige perspektiver og færdigheder
+            styrker et projekt. Derfor vægter jeg særlig højt at være en teamplayer for at bidrage til
+            en god gruppedynamik.
+            Gruppedynamik øger effektiviteten og skaber et positivt arbejdsmiljø,
+            Det er noget jeg  vægter højt.
+        </p>
+
+        <h2>Oliemaler - Jeg kender til farve og kompostion</h2>
+        <p>jeg er en dygtig klassisk tegner og jeg er igang med at blive en dygtigerer oliemaler. Design er jo ikke billedkunst, men jeg
+            oplever alligevel at mit kendskab til eksempelvis farver og kompisition har hjulpet mig, i at fange øjet til en bestemt målgruppe, når jeg designer.
+            Du ksn se nogle af malerier vet <a>klikke her</a></p>
+        <h2>
+
+            Tegneserie-tegner og storyteller</h2>
+        <p>
+            Jeg har i forbindelse med at være på højskole lært nogle gode redskaber til hvordan man skaber en god karakterisitisk figur
+            og udover selv at havde læst tegneserier, tegner jeg dem også.
+            Jeg kan bruge mine evner til at skabe karakterer der er fængende og har et budskab til at fortælle en virksomheds historie igennem en karakter eller bare en god historie!
+        </p>
+    </section>
+
+
+</main>
+
+<footer>
+    <section>
+        <img src="img/mailpng.png" height="20px">
+        <p>sofie.roshni@gmail.com</p>
+    </section>
+
+    <h3>Sofie Vedel</h3>
+
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
+ChatGPT
+Your HTML and CSS code look generally fine, but there are a few things you might want to consider:
+
+Unused CSS Selector: The #buddies selector in your CSS is empty. If it's not used, you might want to consider removing it unless you have plans to use it later.
+
+css
+Copy code
+#buddies {
+    /* Empty ruleset or no rules at all */
+}
+Media Query Syntax: You have two separate media queries for the same screen width. Combine them into one.
+
+css
+Copy code
+@media (max-width: 1000px) {
+    h2 {
+        font-size: medium;
+        font-size: 10px; /* Remove this line if you want the previous line to take effect */
+    }
+
+    p {
+        font-size: small;
+    }
+}
+Image Source: Ensure that the image paths in your HTML are correct. Make sure the images like img/backgroundoliemaleri.png, img/buddies.png, and img/mailpng.png exist in the specified locations.
+
+Anchor Tag without href: In your HTML, you have an anchor tag <a> without an href attribute. If it's not supposed to be a link, you might want to use another HTML element or add the href attribute.
+
+html
+Copy code
+<a>klikke her</a>
+Should be something like:
+
+html
+Copy code
+<a href="#">klikke her</a>
+JavaScript File: Ensure that the main.js file exists and is in the correct location. If it's not needed or causing issues, consider removing the script tag.
+
+After addressing these points, your code should work as expected. If you encounter any specific issues or have particular requirements, please provide more details so I can offer more tailored advice.

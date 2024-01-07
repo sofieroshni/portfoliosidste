@@ -1,0 +1,41 @@
+main section:first-child{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 50vw;
+    margin-bottom: 5vh;
+    overflow: auto;
+    white-space: nowrap;
+}
+main{
+    text-align: center;
+
+}
+body{
+    background-color: black;
+    background-image: none;
+}
+
+
+@media (max-width: 700px) {
+    main article img{
+        width: 10%;
+
+    }
+    main article img:first-child:hover{
+        margin-top: 50%;
+        z-index:1;
+        opacity:100%;
+
+    }
+    main article img:last-child:hover{
+        margin-bottom: 50%;
+        z-index: 1;
+        opacity: 1;
+
+    }
+    main article img:hover{
+        width: 60%;
+
+    }
+    
+}
